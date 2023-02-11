@@ -1,0 +1,687 @@
+
+body{
+    background:  #F5F5F5;
+}
+
+  *{
+    box-sizing: border-box;
+   }
+
+.dot{
+    box-shadow: inset 0px -1px 0px #E0E0E0;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menu_blok {
+    display: flex;
+    margin-inline: auto;
+    width: 1180px;
+    height: 84px;
+
+    align-items: center;
+}
+
+.menu2{
+  margin-left: auto;   
+}
+
+.content13{
+    margin-right: 30px;
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #000000;
+}
+
+.btn4{
+    width: 90px;
+    height: 36px;
+    background: #2B788B;
+    border: none;
+    border-radius: 12px;
+
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+}
+
+.verse1{
+    margin-right: 30px;
+    font-family:Gothi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.8609px;
+    line-height: 100%;
+    
+    color: #000000;  
+}
+
+.verse2{
+    margin-right: 30px;
+    height: 16.87px;
+    color: #E0E0E0;
+}
+
+.verse3{
+    margin-right: 30px;
+
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #000000;
+}
+
+.verse4{ 
+    margin-right: 30px;
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #757575;
+}
+
+.verse5{
+    margin-right: 30px;
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #757575;
+}
+
+.dropbtn{
+    border: none;
+    background: #F6F5F4;
+
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    
+    color: #757575;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    flex-grow: 0;
+  }
+
+.dropdown-content  {
+    padding: 20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 215px;
+    height: 92px;
+    box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08);
+
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.dropdown-content a {
+    border-radius: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #FFFFFF;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #F6F5F4;}
+
+.sprint {
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #333333;
+
+}
+
+.sound{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #828282;
+}
+
+.dot1{  
+    background: #F6F5F4;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.dec {
+    background: #F6F5F4;
+    display: flex;
+    margin-inline: auto;
+    height:740px;;
+    width: 1180px;
+   
+}
+
+.dec10{
+    width: 221px;
+    height: 16px;
+    margin-bottom: 24px;
+}
+
+p {
+    width: 474px;
+   }
+
+
+.guy{
+    width: 614px;
+    height: 510px;
+    margin-left: auto;
+}
+
+.verse6{
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #2B788B;
+}
+
+.verset7{
+    line-height: 120%;
+    font-family: Gothi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+
+    color: #000000;
+}
+
+.verse8{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #757575;
+}
+
+.btn1{
+    width: 165px;
+    height: 44px;
+
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;
+
+    font-family:  Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #2B788B;
+    }
+
+.dec_content{
+   display: flex;
+
+}
+
+.dec2{
+    margin-top: 48px;
+    margin-right: 48px;
+    height: 65px;
+}
+
+.dec3{
+    height: 65px;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.verse9{
+    font-family:Gothi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+
+    color: #000000;
+    }
+
+    .verse11{
+        font-family:Gothi;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        
+        color:#2B788B;
+    }
+
+    .verse10{
+        font-family:Montser;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+
+        color: #585858;
+    }
+
+    .dec_area{
+        margin-top: 48px;
+    }
+
+    .verse12{
+        font-size:48.78px;
+        height: 48.78px;
+        color: #E0E0E0;   
+    }
+
+    .verse14{
+        font-family:Gothi;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        
+        color: #000000;  
+    }
+
+    .verse15{
+        font-family:Gothi;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        
+        color:#2B788B;  
+    }
+
+    .verse16{
+        font-family:Montser;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        
+        color: #585858;
+    }
+
+    .dot2 {
+     display: flex;
+     background: #FFFFFF;
+    }
+
+.box{
+    width: 1180px;
+    height: 600px;
+    display: flex;
+    margin-inline: auto;
+}
+
+.girl{
+    width: 580px;
+    height: 445px;
+    margin-top: 77.5px;   
+}
+
+.box2{
+   margin-top: 121.5px;
+   margin-bottom: 127px;
+   height: 351.5px;
+}
+
+.box10{
+margin-bottom: 30px;
+}
+
+.verse17{
+    width: 474.46px;
+    height: 96px;
+    
+    font-family:Gothi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+
+    color: #000000;
+}
+
+.verse18{
+    padding: 0px auto;
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    
+    color: #757575;
+}
+
+.box4{
+    width: 129px;
+    height: 112px;
+    text-align: center;
+    background: #F2D4DC;
+    border-radius: 14px;
+    margin-right: 21.05px;
+    
+}
+
+.box3{
+    display: flex;
+    position: absolute;
+    width: 324.05px;
+    height: 145.5px;
+    margin-top: 30px;
+}
+
+.box4_image{
+    width: 131px;
+    height: 106px;
+    margin-left: 0px;
+    margin-top: -22px;
+
+    color:#945069; 
+}
+
+.box5_image{
+    width: 91px;
+    height: 106px;
+    margin-left: 41px;
+    margin-top: -22px;
+    
+    color: #2B788B;
+}
+
+.verse9{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+
+    color: #945069;
+}
+
+.verse20{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+
+    color: #2B788B;
+}
+
+.box5{
+    background: #C3DCE3;
+    border-radius: 14px;
+    width: 172px;
+    height: 112px;
+    text-align: center;
+}
+
+
+.dot3{
+    background: #F6F5F4;
+    display: flex;
+    align-items: center;
+}
+
+.major {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 500px;
+    margin-inline: auto;
+}
+
+.major1{
+    width: 474.46px;
+    height: 254px;
+}
+
+
+.schulerin{
+    width: 580px;
+    height: 473px;
+}
+
+.major2{
+    padding-top:26.03px ;
+}
+
+.verse21{
+    font-family: Gothi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+
+    color: #000000;
+}
+
+.verse22{
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #757575;
+}
+
+.btn6{
+    width: 131px;
+    height: 44px;
+    margin-top: 34px;
+
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;
+
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #2B788B;
+}
+
+.dot4{
+    display: flex;
+    background: #FFFFFF;
+}
+
+.ball {
+    display: flex;
+    margin-inline: auto;
+    height: 600px;
+    width: 1180px;
+}
+
+.paar{
+    width: 680px;
+    height: 409.25px;
+    padding-top: 95.37px;
+}
+
+.ball1{
+    padding-top: 95.37px;
+}
+
+.ball2{
+    width: 474.46px;
+    height: 302px;
+}
+
+.ball4{
+    margin-top: 149px;
+    margin-bottom: 30px;
+}
+
+.verse23{
+    font-family: Gothi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+
+    color: #000000;
+}
+
+.verse24{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #757575;
+}
+
+.btn7{
+    width: 129px;
+    height: 44px;
+    margin-top: 34px;
+
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;
+
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #2B788B;
+}
+
+.dot5{
+    display: flex;
+    height: 160px;
+    align-items: center;
+    background: #F6F5F4;
+}
+
+.footer{
+    display: flex;
+    margin-inline: auto;
+    width: 1180px;
+    
+}
+
+.footer1 {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.footer3{
+    margin-left: auto;
+}
+
+.verse25{
+    margin-right: 21.5px;
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #757575;
+}
+
+.verse26{
+    margin-right: 21.5px;
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #757575;
+}
+
+.footer4 {
+    display: flex;
+    height: 26px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0px;
+}
+
+.footer_image {
+    display: flex;
+    width: 150px;
+    height: 24px;
+}
+
+.footer_image1{
+    Width:24.81px;
+    height:19.87px;
+    margin-right: 33.5px;
+    background: #BABABA;;
+}
+
+.footer_image2{
+    margin-right: 33.5px;
+    width: 27.9px;
+    height: 18.73px;
+}
+
+.footer_text{
+    width: 249px;
+    height: 12px;
+    margin-left: 783px;
+    
+}
+
+.text28{
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+
+    color: #757575;
+}
